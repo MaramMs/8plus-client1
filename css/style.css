@@ -246,10 +246,10 @@ justify-content: space-around !important;
 }
 /* start services */
 /* start about us */
-/* .sec-about {
+.sec-about {
   margin-top: 6rem;
-  height: 435px;
-} */
+  
+}
 .about {
   display: flex;
   justify-content: space-between;
@@ -396,6 +396,7 @@ justify-content: space-around !important;
 }
 .statistics .card-text {
   width: 85px;
+  color: #114c63;
 }
 
 .card-item{
@@ -643,14 +644,8 @@ footer .container {
   .navbar-nav{
     width: 300px;
   }
-  .services {
-    height: auto;
-  }
   .services .card {
     margin: auto auto 10px auto;
-  }
-  .sec-about {
-    margin-top: 40rem;
   }
   .right-side {
     margin-bottom: 20px;
@@ -668,8 +663,12 @@ footer .container {
     right: -2%;
   }
   .courses {
-    margin-top: 31rem;
+    margin-top: 15rem;
+    padding: 5px;
     height: 1000px;
+  }
+  .courses-title{
+    padding: 25px 0px;
   }
   .courses .card {
     height: 500px;
@@ -700,5 +699,33 @@ margin: 24rem auto auto auto;
   }
   .pages{
 width: 300px;
+  }
+  .container {
+    width: 100%;
+  }
+  .services .card{
+    width: 158px;
+    height: 160.21px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .services .card .card-title{
+    font-size: 8px;
+  }
+  
+  .services .card .card-text{
+font-size: 6px;
+width: 130.38px;
+height: 34.25px;
+  }
+  .statistics .card-text {
+    font-size: 10px;
+    width: 100%;
+  }
+  .statistics .card-title{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(17, 76, 99, 1);
+
   }
 }
