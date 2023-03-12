@@ -18,6 +18,7 @@ a {
 }
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
+  overflow-x: hidden;
 }
 /* start header */
 .header {
@@ -245,10 +246,10 @@ justify-content: space-around !important;
 }
 /* start services */
 /* start about us */
-.sec-about {
+/* .sec-about {
   margin-top: 6rem;
   height: 435px;
-}
+} */
 .about {
   display: flex;
   justify-content: space-between;
@@ -341,9 +342,8 @@ justify-content: space-around !important;
 }
 /* end about us */
 .statistics {
-  margin-top: 13rem;
+  margin-top: 6rem;
   position: relative;
-  /* height: 464px; */
   background: linear-gradient(
     264.28deg,
     rgba(17, 76, 99, 0.02) 0.55%,
@@ -382,6 +382,9 @@ justify-content: space-around !important;
   width: 210px;
   border: none;
 }
+.statistics .cards {
+    margin-bottom: 10px;
+}
 .statistics .icons {
   background-color: #114c63;
   width: 74px;
@@ -393,6 +396,11 @@ justify-content: space-around !important;
 }
 .statistics .card-text {
   width: 85px;
+}
+
+.card-item{
+    display: flex;
+    justify-content: space-around;
 }
 .courses {
   margin-top: 5rem;
@@ -455,6 +463,10 @@ justify-content: space-around !important;
   font-size: 12px;
   color: #000;
 }
+.cards{
+    display: flex;
+    justify-content: space-between;
+  }
 .available .dot {
   width: 6px;
   height: 6px;
@@ -597,23 +609,39 @@ footer .container {
     display: none;
   }
   .login {
-    display: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-item{
+    margin-bottom: 10px;
+  }
+  .header-hero{
+    width: 350px;
   }
   .hero-title,
   .hero-subTitle {
     font-size: 16px;
   }
+  .hero-subTitle{
+    width: 300px;
+  }
   .hero-info {
     font-size: 14px;
+    width: 320px;
   }
   .search {
+    margin-top: 20px;
     flex-wrap: wrap;
+    width: 230px;
   }
   .search-input {
     width: 270px;
   }
   .search-btn {
-    width: 265px;
+    width:267px;
+  }
+  .navbar-nav{
+    width: 300px;
   }
   .services {
     height: auto;
@@ -628,16 +656,19 @@ footer .container {
     margin-bottom: 20px;
   }
   .right-side .about-info {
-    width: 397px;
-    font-size: 13px;
+    width: 346px;
+    font-size: 11px;
   }
   .left-side {
-    width: 413px;
-  }
+    width: 320px;
+
+  } 
+
   .win {
     right: -2%;
   }
   .courses {
+    margin-top: 31rem;
     height: 1000px;
   }
   .courses .card {
@@ -657,5 +688,17 @@ margin: 24rem auto auto auto;
   }
   .pages .pages-names{
     display: block;
+  }
+.cards{
+    display: block;
+    margin-top: 10px;
+}
+  .card-item{
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .pages{
+width: 300px;
   }
 }
