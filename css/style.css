@@ -14,7 +14,7 @@ a {
 }
 .container {
   width: 85%;
-  height: 671px;
+  /* height: 671px; */
 }
 body {
   font-family: "Noto Kufi Arabic", sans-serif;
@@ -402,10 +402,10 @@ justify-content: space-around !important;
 .card-item{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 .courses {
   margin-top: 5rem;
-  height: 650px;
   padding: 2rem;
 }
 .courses .card {
@@ -418,13 +418,13 @@ justify-content: space-around !important;
   position: relative;
   margin-bottom: 15px;
 }
-.coures-title,
+.courses-title ,
 .campany-title {
   text-align: center;
   color: #000;
   font-weight: 700;
   font-size: 24px;
-  padding: 3rem;
+
 }
 .card-body .card-title {
   color: #000;
@@ -500,9 +500,8 @@ justify-content: space-around !important;
   font-size: 12px;
 }
 .company {
-  margin-top: 5rem;
-  height: 500px;
-  padding: 2rem;
+  margin: 5rem 0px;
+
 }
 .campanies {
   display: flex;
@@ -515,7 +514,6 @@ justify-content: space-around !important;
 
 footer {
   background-color: #114c63;
-  height: 339px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -604,7 +602,9 @@ footer .container {
   color: #fff;
   padding-top: 1rem;
 }
-
+.carousel-inner{
+  height: 400px;
+}
 @media (max-width: 575.98px) {
   nav > ul {
     display: none;
@@ -663,23 +663,21 @@ footer .container {
     right: -2%;
   }
   .courses {
-    margin-top: 15rem;
-    padding: 5px;
-    height: 1000px;
+    padding: 18px;
   }
   .courses-title{
     padding: 25px 0px;
   }
   .courses .card {
-    height: 500px;
-    margin-bottom: 10px;
+
+    width: 333px;
+    height: 453px;
+    margin-bottom: 25px;
   }
   .footer-item span {
     font-size: 8px;
   }
-  .company{
-margin: 24rem auto auto auto;
-  }
+
   footer{
     height: 430px;
     justify-content: center;
@@ -727,5 +725,14 @@ height: 34.25px;
     font-weight: 600;
     color: rgba(17, 76, 99, 1);
 
+  }
+  .card-body .card-title{
+    font-size: 12px;
+  }
+  .card-body .card-text {
+font-size: 10px;
+  }
+  .name-trainer .name ,.date{
+    font-size: 8px;
   }
 }
