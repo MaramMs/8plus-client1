@@ -49,13 +49,13 @@ nav > ul {
   color: #fff;
   font-size: 16px;
 }
-.navbar-nav{
-    width: 589px;
-    justify-content: space-between;
-    align-items: center;
+.navbar-nav {
+  width: 589px;
+  justify-content: space-between;
+  align-items: center;
 }
-.head-nav{
-justify-content: space-around !important;
+.head-nav {
+  justify-content: space-around !important;
 }
 .login {
   display: flex;
@@ -164,9 +164,9 @@ justify-content: space-around !important;
   align-items: center;
   cursor: pointer;
 }
-#bars{
-    /* display: none; */
-    display: block;
+#bars {
+  /* display: none; */
+  display: block;
 }
 /* end header */
 .services {
@@ -248,7 +248,6 @@ justify-content: space-around !important;
 /* start about us */
 .sec-about {
   margin-top: 6rem;
-  
 }
 .about {
   display: flex;
@@ -383,7 +382,7 @@ justify-content: space-around !important;
   border: none;
 }
 .statistics .cards {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .statistics .icons {
   background-color: #114c63;
@@ -399,10 +398,10 @@ justify-content: space-around !important;
   color: #114c63;
 }
 
-.card-item{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10px;
+.card-item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 .courses {
   margin-top: 5rem;
@@ -418,13 +417,12 @@ justify-content: space-around !important;
   position: relative;
   margin-bottom: 15px;
 }
-.courses-title ,
+.courses-title,
 .campany-title {
   text-align: center;
   color: #000;
   font-weight: 700;
   font-size: 24px;
-
 }
 .card-body .card-title {
   color: #000;
@@ -464,10 +462,10 @@ justify-content: space-around !important;
   font-size: 12px;
   color: #000;
 }
-.cards{
-    display: flex;
-    justify-content: space-between;
-  }
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
 .available .dot {
   width: 6px;
   height: 6px;
@@ -501,7 +499,6 @@ justify-content: space-around !important;
 }
 .company {
   margin: 5rem 0px;
-
 }
 .campanies {
   display: flex;
@@ -602,7 +599,7 @@ footer .container {
   color: #fff;
   padding-top: 1rem;
 }
-.carousel-inner{
+.carousel-inner {
   height: 400px;
 }
 @media (max-width: 575.98px) {
@@ -613,17 +610,17 @@ footer .container {
     display: flex;
     flex-direction: column;
   }
-  .nav-item{
+  .nav-item {
     margin-bottom: 10px;
   }
-  .header-hero{
+  .header-hero {
     width: 350px;
   }
   .hero-title,
   .hero-subTitle {
     font-size: 16px;
   }
-  .hero-subTitle{
+  .hero-subTitle {
     width: 300px;
   }
   .hero-info {
@@ -639,9 +636,9 @@ footer .container {
     width: 270px;
   }
   .search-btn {
-    width:267px;
+    width: 267px;
   }
-  .navbar-nav{
+  .navbar-nav {
     width: 300px;
   }
   .services .card {
@@ -656,8 +653,7 @@ footer .container {
   }
   .left-side {
     width: 320px;
-
-  } 
+  }
 
   .win {
     right: -2%;
@@ -665,11 +661,10 @@ footer .container {
   .courses {
     padding: 18px;
   }
-  .courses-title{
+  .courses-title {
     padding: 25px 0px;
   }
   .courses .card {
-
     width: 333px;
     height: 453px;
     margin-bottom: 25px;
@@ -678,78 +673,77 @@ footer .container {
     font-size: 8px;
   }
 
-  footer{
+  footer {
     height: 430px;
     justify-content: center;
     align-items: center;
   }
-  .pages .pages-names{
+  .pages .pages-names {
     display: block;
   }
-.cards{
+  .cards {
     display: block;
     margin-top: 10px;
-}
-  .card-item{
+  }
+  .card-item {
     justify-content: space-around;
     display: flex;
     margin-bottom: 10px;
   }
-  .pages{
-width: 300px;
+  .pages {
+    width: 300px;
   }
   .container {
     width: 100%;
   }
-  .services .card{
+  .services .card {
     width: 153px;
     height: 160.21px;
     margin: 0;
     margin-bottom: 10px;
   }
-  .services .card .card-title{
+  .services .card .card-title {
     font-size: 8px;
   }
-  
-  .services .card .card-text{
-font-size: 6px;
-width: 130.38px;
-height: 34.25px;
+
+  .services .card .card-text {
+    font-size: 6px;
+    width: 130.38px;
+    height: 34.25px;
   }
   .statistics .card-text {
     font-size: 10px;
     width: 100%;
   }
-  .statistics .card-title{
+  .statistics .card-title {
     font-size: 12px;
     font-weight: 600;
     color: rgba(17, 76, 99, 1);
-
   }
-  .card-body .card-title{
+  .card-body .card-title {
     font-size: 12px;
   }
   .card-body .card-text {
-font-size: 10px;
+    font-size: 10px;
   }
-  .name-trainer .name ,.date{
+  .name-trainer .name,
+  .date {
     font-size: 8px;
   }
 }
 
-
 /* start about us page */
-.about-header{
+.about-header {
   height: 421px;
-  background: url('../img/about-header.png');
+  background: url("../img/about-header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position:relative;
+  position: relative;
 }
 
-.about-laylout{
+.about-laylout {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -760,177 +754,300 @@ font-size: 10px;
   bottom: 0%;
 }
 
-.about-header .line{
+.about-header .line {
   top: 17%;
 }
 .about-header .header-hero {
   position: absolute;
-width: 113px;
-height: 61px;
-right: 664px;
-top: 200px;
-font-weight: 700;
-font-size: 32px;
-line-height: 61px;
-color: #fff;
+  width: 113px;
+  height: 61px;
+  right: 664px;
+  top: 200px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 61px;
+  color: #fff;
 }
 
 /* about us section */
-.about-page{
+.about-page {
   margin-top: 5rem;
 }
-.about-se-span{
+.about-se-span {
   display: flex;
   align-items: center;
-gap:0.5rem
+  gap: 0.5rem;
 }
-.about-se-span .lines{
-display: flex;
-flex-direction: column;
-gap:0.2rem;
+.about-se-span .lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
-.about-se-span .lines span:first-child{
+.about-se-span .lines span:first-child {
   width: 38px;
   height: 2px;
-  background-color: #114C63;
+  background-color: #114c63;
 }
-.about-se-span .lines span:nth-child(2){
+.about-se-span .lines span:nth-child(2) {
   width: 29px;
   height: 2px;
-  background-color: #114C63;
+  background-color: #114c63;
 }
-.about-se-span .lines span:nth-child(3){
-  background-color: #114C63;
+.about-se-span .lines span:nth-child(3) {
+  background-color: #114c63;
   width: 21px;
-height: 2px;
+  height: 2px;
 }
-.about-se-title{
+.about-se-title {
   font: 24px;
   font-weight: 700;
   margin: 1.5rem 0rem;
-  color:#114C63;
+  color: #114c63;
 }
 
-.about-se-text{
-width: 479px;
-height: 89px;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: #000;
-}
-.about-cards-top{
-  display: flex;
-  align-items: center;
-  gap:2rem;
-  margin-top: 4rem;
-  
-}
-.about-cards-top  .top-card-title{
-  width: 105px;
-  height: 30px;
-  font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-color: #114C63
-}
-.about-cards-top  .top-card-text{
-width: 259px;
-height: 81px;
-font-weight: 400;
-font-size: 14px;
-line-height: 27px;
-text-align: right;
-
-color: #000000
-}
-.about-bottom-cards{
-  position: relative;
-margin-top: 20rem;
-
-}
-.bottom-card{
-width: 278px;
-height: 257px;
-border: 1px solid #e4e4e4;
-border-radius: 19px;
-text-align: center;
-margin-bottom: 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.bottom-card:nth-child(3){
-  position: absolute;
-  top: 32%;
-  left: 4%;
-  
-}
-.bottom-card-title{
-  font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-
-color: #114C63
-}
-.bottom-card-text{
-  width:232px;
-  height: 81px;
-  font-weight: 400;
-font-size: 12px;
-line-height: 23px;
-text-align: center;
-
-color: #000000;
-
-}
-.about-images{
-  position: relative;
-  height: 400px;
-
-}
-.about-images img{
-  max-width: 100%;
-}
-.about-images img{
-  max-width: 100%;
-}
-.about-images img:first-child{
-  top: 21%;
-  position: absolute;
-}
-.about-images img:nth-child(2){
-left: 13%; 
- position: absolute;
-}
-.about-texts{
-  margin-top: 14rem;
-  padding: 6rem;
-}
-.about-texts-title{
-  width: 479px;
-  height: 111px;
-  font-weight: 600;
-font-size: 24px;
-line-height: 46px;
-text-align: right;
-
-color: #000000;
-}
-.about-texts .about-text{
+.about-se-text {
   width: 479px;
   height: 89px;
   font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-text-align: right;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+}
+.about-cards-top {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.about-cards-top .top-card-title {
+  width: 105px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #114c63;
+}
+.about-cards-top .top-card-text {
+  width: 259px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: right;
 
-color: #000000;
+  color: #000000;
+}
+.about-bottom-cards {
+  position: relative;
+  margin-top: 20rem;
+}
+.bottom-card {
+  width: 278px;
+  height: 257px;
+  border: 1px solid #e4e4e4;
+  border-radius: 19px;
+  text-align: center;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-card:nth-child(3) {
+  position: absolute;
+  top: 32%;
+  left: 4%;
+}
+.bottom-card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #114c63;
+}
+.bottom-card-text {
+  width: 232px;
+  height: 81px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+.about-images {
+  position: relative;
+  height: 400px;
+}
+.about-images img {
+  max-width: 100%;
+}
+.about-images img {
+  max-width: 100%;
+}
+.about-images img:first-child {
+  top: 21%;
+  position: absolute;
+}
+.about-images img:nth-child(2) {
+  left: 13%;
+  position: absolute;
+}
+.about-texts {
+  margin-top: 14rem;
+  padding: 6rem;
+}
+.about-texts-title {
+  width: 479px;
+  height: 111px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: right;
+
+  color: #000000;
+}
+.about-texts .about-text {
+  width: 479px;
+  height: 89px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+
+  color: #000000;
 }
 /* end about us section */
-
-
-
 /* end about us page */
+
+/* contact us page */
+.header-hero.contact{
+  width: 174px;
+}
+.contact-us {
+  margin: 5rem 0rem 10rem 0rem;
+  position: relative;
+}
+.rectangle {
+  width: 117px;
+  height: 117px;
+  background: linear-gradient(225.15deg, #1e627c 5.53%, #059cd7 98.08%);
+  border-radius: 8px;
+}
+
+.contact-form {
+  position: absolute;
+  top: 5%;
+  right: 12%;
+  width: 580px;
+  height: 815px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 74px 16px rgba(17, 76, 99, 0.06);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 2px solid #114C63;
+ 
+}
+
+.form-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+
+color: #114C63;
+}
+.btn-icon{
+width: 16px;
+height: 16px;
+border-radius: 50%;
+background-color: #114C63;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 46px;
+  color: #114c63;
+}
+.form-text {
+  width: 430px;
+  height: 90px;
+  font-size: 16px;
+  color: #999090;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.form-control {
+  height: 56px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+}
+.form-control::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+  color: #d4d4d4;
+}
+.contact-form .btn {
+  border: 1px solid #114c63;
+  border-radius: 8px;
+  background: transparent;
+  width: 138px;
+  height: 56px;
+  color: rgba(17, 76, 99, 1);
+  left: 37%;
+  position: absolute;
+  bottom: 8%;
+}
+.contact-card {
+  padding-top: 1.3rem;
+}
+.contact-card .contact-title{
+  font-weight: 600;
+font-size: 24px;
+line-height: 46px;
+color: #000000;
+}
+.contact-card .card {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 503px;
+  height: 234px;
+  background: #ffffff;
+  box-shadow: 0px 4px 74px 10px rgba(17, 76, 99, 0.07);
+  border-radius: 16px;
+  border: none;
+}
+.contact-card .card .card-text{
+  width: 217px;
+  height: 55px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #9D9D9D;
+}
+.contact-card .icon{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #114C63 0%, #188CB9 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* end contact us page */
