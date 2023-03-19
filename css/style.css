@@ -922,7 +922,7 @@ footer .container {
 /* end about us page */
 
 /* contact us page */
-.header-hero.contact{
+.header-hero.contact {
   width: 174px;
 }
 .contact-us {
@@ -950,29 +950,28 @@ footer .container {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  border-bottom: 2px solid #114C63;
- 
+  border-bottom: 2px solid #114c63;
 }
 
-.form-btn{
+.form-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
   font-weight: 600;
-font-size: 16px;
-line-height: 30px;
+  font-size: 16px;
+  line-height: 30px;
 
-color: #114C63;
+  color: #114c63;
 }
-.btn-icon{
-width: 16px;
-height: 16px;
-border-radius: 50%;
-background-color: #114C63;
-display: flex;
-justify-content: center;
-align-items: center;
+.btn-icon {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #114c63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form-title {
   font-weight: 600;
@@ -1015,11 +1014,11 @@ align-items: center;
 .contact-card {
   padding-top: 1.3rem;
 }
-.contact-card .contact-title{
+.contact-card .contact-title {
   font-weight: 600;
-font-size: 24px;
-line-height: 46px;
-color: #000000;
+  font-size: 24px;
+  line-height: 46px;
+  color: #000000;
 }
 .contact-card .card {
   flex-direction: row;
@@ -1033,21 +1032,193 @@ color: #000000;
   border-radius: 16px;
   border: none;
 }
-.contact-card .card .card-text{
+.contact-card .card .card-text {
   width: 217px;
   height: 55px;
   font-weight: 400;
   font-size: 14px;
-  color: #9D9D9D;
+  color: #9d9d9d;
 }
-.contact-card .icon{
+.contact-card .icon {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #114C63 0%, #188CB9 100%);
+  background: linear-gradient(180deg, #114c63 0%, #188cb9 100%);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* end contact us page */
+
+/*  start course page*/
+.course{
+  margin-top:5rem;
+}
+.course-header .link,
+.navbar-dark .navbar-nav .nav-link {
+  color: #000;
+
+}
+.course-header .line {
+  border: 0.5px solid rgba(212, 212, 212, 1);
+  background: rgba(212, 212, 212, 1);
+  position: absolute;
+  left: 0%;
+}
+.course-header .logIn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #000000;
+}
+.course-header .reg {
+  width: 106px;
+  height: 40px;
+  left: 128px;
+  top: 30px;
+
+  background: #114c63;
+  border-radius: 49px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.money{
+  width: 751px;
+height: 485px;
+border: 1px solid #EFEFEF;
+box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+padding: 36px 48px;
+}
+.course-card{
+  width: 400px;
+height: 653px;
+background: #FFFFFF;
+box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
+border-radius: 8px;
+padding: 36px 29px;
+}
+.card-span
+{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;  
+  text-align: right;
+  color: #000000;
+  margin-top: 1rem;
+  display: inline-block;
+}
+.join{
+  width: 338px;
+  height: 52px;
+  left: 162px;
+  top: 413px;  
+  background: #114C63;
+  border-radius: 8px;
+  border: 0px;
+  color: #fff;
+  font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+color: #FFFFFF;
+margin-top: 1rem;
+}
+.course-list-item{
+  border-bottom: 1px solid #EBEBEB;
+  padding: 12px 0px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+
+}
+.present-name{
+  font-weight: 600;
+}
+.course-list-item:last-child{
+  border: none;
+}
+.course-list-item .price{
+  font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: rgba(17, 76, 99, 1);
+}
+.present-span{
+  font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: #114C63
+}
+
+.course-span{
+  width: 141px;
+height: 44px;
+background: #114C63;
+border-radius: 22px;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #FFFFFF;
+padding: 0.5rem;
+margin: 2rem 0rem;
+display: inline-block;
+}
+
+.span-title{
+  font-weight: 700;
+font-size: 32px;
+line-height: 61px;
+color: #000000;
+}
+.course-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;  
+  color: #000000;
+width: 1184px;
+height: 102px;
+background: rgba(17, 76, 99, 0.04);
+border-radius: 8px;
+padding: 28px 33px 28px ;
+margin-bottom: 10px;
+}
+.courses-text{
+  width: 1088px;
+height: 250px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #000000;
+padding-right: 33px;
+margin-bottom: 36px;
+}
+.sub-title{
+width: 474px;
+height: 46px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 46px;
+color: #000000;
+margin-right: 33px;
+}
+.sub-text{
+  width: 1085px;
+height: 69px;
+font-family: 'Noto Kufi Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: right;
+
+color: #000000;
+margin-right: 33px;
+margin-bottom: 3rem;
+}
+/*  end course page*/
