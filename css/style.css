@@ -953,7 +953,7 @@ footer .container {
   border-bottom: 2px solid #114c63;
 }
 
-.form-btn {
+ .form-btn ,.service-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -961,7 +961,6 @@ footer .container {
   font-weight: 600;
   font-size: 16px;
   line-height: 30px;
-
   color: #114c63;
 }
 .btn-icon {
@@ -1388,3 +1387,38 @@ margin-top: 2rem;
 }
 
 /* end reg page */
+
+/* start service page */
+.sec-services{
+  margin: 5rem 0rem 10rem 0rem;
+  position: relative;
+
+}
+.ser-rectangle{
+width: 479px;
+height: 653px;
+border: 1px solid #114C63;
+margin-bottom: 5rem;
+position: relative;
+}
+.sec-services .service-form form{
+width: 50%;
+}
+.sec-services .service-form .form-text{
+  text-align: right;
+}
+.service-btn{
+  margin: auto;
+  border: 1px solid #1e627c;
+}
+.ser-img {
+  max-width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: -3%;
+  width: 479px;
+    height: 653px;
+    left: 14%;
+}
+
+/* end service page */
