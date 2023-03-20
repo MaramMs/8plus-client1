@@ -1257,6 +1257,7 @@ border-bottom: 8px solid rgba(68, 172, 212, 1);
 }
 .login-form .form-control{
   background-color: transparent;
+  color: #fff;
   width: 397px;
 height: 56px;
 left: 521px;
@@ -1342,13 +1343,13 @@ line-height: 23px;
 .sec-reg{
 background: url('../img/reg.png');
 }
-.reg-form form {
-  width: 750px;
-}
 .reg-form{
-  padding: 194px 465px 272px 751px;
+  padding: 194px 527px 272px 751px;
   position: relative;
 
+}
+.reg-form form {
+  width: 750px;
 }
 .reg-form .form-control{
   width: 284px;
@@ -1357,6 +1358,7 @@ background: url('../img/reg.png');
 border: 1px solid #E3E3E3;
 border-radius: 8px;
 margin-bottom: 20px;
+color: #fff;
 }
 .reg-form .reg-btn{
   display: flex;
