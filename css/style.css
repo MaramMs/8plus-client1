@@ -1227,7 +1227,7 @@ margin-bottom: 3rem;
 /*  end course page*/
 
 /* start login page */
-.sec-login{
+.sec-login ,.sec-reg{
   background: url('../img/login.png');
 background-repeat: no-repeat;
 background-size: cover;
@@ -1246,7 +1246,7 @@ border-bottom: 8px solid rgba(68, 172, 212, 1);
   left: 0%;
   background: rgba(2, 2, 2, 0.7);
 }
-.login-form{
+.login-form,.reg-form{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1256,7 +1256,7 @@ border-bottom: 8px solid rgba(68, 172, 212, 1);
   flex-direction: column;
   gap:3rem;
 }
-.login-form .form-control {
+.login-form .form-control{
   background-color: transparent;
   width: 397px;
 height: 56px;
@@ -1282,7 +1282,7 @@ text-align: left;
   font-size: 12px;
   line-height: 23px;
 }
-.login-form .login-btn{
+.login-form .login-btn , .reg-form .reg-btn{
   width: 397px;
   height: 56px;
   background: #FFFFFF;
@@ -1294,14 +1294,14 @@ line-height: 27px;
 color: #114C63;
 margin-top: 1.5rem;
 }
-.login-form .line{
+.login-form .line , .reg-form .line{
   width: 704px;
 height: 0px;
 left: 368px;
 top: 417px;
 border: 0.5px solid #EDEDED;
 }
-.login-social{
+.login-social , .reg-social{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1309,12 +1309,12 @@ border: 0.5px solid #EDEDED;
   gap:0.5rem
 }
 
-.login-social .login-social-items{
+.login-social .login-social-items ,.reg-social .reg-social-items{
   display: flex;
   margin-bottom: 2.5rem;
   gap:1rem;
 }
-.login-social-item{
+.login-social-item , .reg-social-item{
   width: 54px;
 height: 54px;
 border-radius: 50%;
@@ -1324,7 +1324,7 @@ justify-content: center;
 align-items: center;
 }
 
-.login-social .login-social-title{
+.login-social .login-social-title ,.reg-social .reg-social-title{
 font-weight: 600;
 font-size: 12px;
 line-height: 23px; 
@@ -1338,3 +1338,53 @@ line-height: 23px;
   font-size: 12px;
 }
 /* end login page */
+
+/* start reg page */
+.sec-reg{
+background: url('../img/reg.png');
+}
+.reg-form form {
+  width: 750px;
+}
+.reg-form{
+  padding: 194px 465px 272px 751px;
+  position: relative;
+
+}
+.reg-form .form-control{
+  width: 284px;
+  height: 56px;
+  background-color: transparent;
+border: 1px solid #E3E3E3;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.reg-form .reg-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.reg-form .line{
+  top: 500px;
+  left: 565px;
+}
+.reg-social{
+margin-top: 2rem;
+}
+.select-input
+{
+  display: flex;
+  width: 200px;
+}
+.select-input select{
+  width: 50%;
+}
+#phone {
+  padding-left: 48px;
+  background-image: url("path/to/flags.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+/* end reg page */
