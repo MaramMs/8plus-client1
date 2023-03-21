@@ -1437,3 +1437,42 @@ footer .container {
 }
 
 /* end service page */
+
+/* login and reg page responsive */
+@media (max-width: 575.98px) {
+  footer{
+    padding: 0px;
+  }
+  .navbar-dark .navbar-toggler{
+    background-color: #000;
+  }
+  footer .container{
+    padding: 1rem;
+  }
+  .reg-form form , .login-form{
+  width: 85%;
+}
+.login-form .form-control{
+  width: 302px;
+}
+.login-form .login-btn{
+  width: 302px;
+}
+.login-form , .reg-form{
+  padding: 0px;
+  gap:1rem
+}
+.login-form .login-btn, .reg-form .reg-btn{
+  width:250px
+}
+.login-social .login-social-items, .reg-social .reg-social-items{
+  margin-bottom: 0.5rem;
+}
+.reg-social{
+  margin-top: 0;
+}
+.form-title{
+padding-top: 3rem;
+}
+}
+/* end login and reg page responsive */
