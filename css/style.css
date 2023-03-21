@@ -1223,6 +1223,68 @@ footer .container {
 .about-courses {
   margin-top: 3rem;
 }
+.sec-resource{
+  margin-bottom: 5rem;
+}
+.sec-resource .container {
+  border: 2px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 88px 35px;
+}
+.resc-title {
+  background: rgba(227, 227, 227, 0.46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 22px;
+  margin-bottom: 52px;
+}
+.resc-title h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #000;
+}
+.lecture-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.lecture-time span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.accordion-button:not(.collapsed) {
+  background: rgba(17, 76, 99, 0.08);
+  border: 0.5px solid rgba(17, 76, 99, 0.39);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  height: 90px;
+  color: #000000;
+}
+.unit-name{
+display: flex;
+align-items: center;
+gap:0.5rem
+}
+.resource{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+color: #114C63;
+}
 /*  end course page*/
 
 /* start login page */
@@ -1381,9 +1443,8 @@ footer .container {
   margin: auto;
 }
 .reg-form .line {
-
-    top: 602px;
-    left: 739px;
+  top: 602px;
+  left: 739px;
 }
 .reg-social {
   margin-top: 2rem;
@@ -1440,39 +1501,43 @@ footer .container {
 
 /* login and reg page responsive */
 @media (max-width: 575.98px) {
-  footer{
+  footer {
     padding: 0px;
   }
-  .navbar-dark .navbar-toggler{
+  .navbar-dark .navbar-toggler {
     background-color: #000;
   }
-  footer .container{
+  footer .container {
     padding: 1rem;
   }
-  .reg-form form , .login-form{
-  width: 85%;
-}
-.login-form .form-control{
-  width: 302px;
-}
-.login-form .login-btn{
-  width: 302px;
-}
-.login-form , .reg-form{
-  padding: 0px;
-  gap:1rem
-}
-.login-form .login-btn, .reg-form .reg-btn{
-  width:250px
-}
-.login-social .login-social-items, .reg-social .reg-social-items{
-  margin-bottom: 0.5rem;
-}
-.reg-social{
-  margin-top: 0;
-}
-.form-title{
-padding-top: 3rem;
-}
+  .reg-form form,
+  .login-form {
+    width: 85%;
+  }
+  .login-form .form-control {
+    width: 302px;
+  }
+  .login-form .login-btn {
+    width: 302px;
+  }
+  .login-form,
+  .reg-form {
+    padding: 0px;
+    gap: 1rem;
+  }
+  .login-form .login-btn,
+  .reg-form .reg-btn {
+    width: 250px;
+  }
+  .login-social .login-social-items,
+  .reg-social .reg-social-items {
+    margin-bottom: 0.5rem;
+  }
+  .reg-social {
+    margin-top: 0;
+  }
+  .form-title {
+    padding-top: 3rem;
+  }
 }
 /* end login and reg page responsive */
