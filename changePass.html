@@ -90,33 +90,34 @@
     <main>
       <section class="sec-forgetPass">
         <div class="container">
-          <p class="reg-login">
-            ليس لديك حساب ؟
-            <a href="reg.html">سجل الآن مجاناً</a>
-          </p>
-          <div class="form-forgetPass ">
-            <h1>هل فقدت كلمة المرور ؟</h1>
-            <p>
-              قم بإدخال بريدك الإلكتروني وسيتم رسال رابط إعادة تعيين كلمة المرور
-              الجديدة
-            </p>
+          <div class="form-forgetPass form-changePass">
+            <h1>أدخل كلمة المرور الجديدة</h1>
+            <p class="change-pass-text">قم بإدخال كملة مرور قوية صعب تخمينها</p>
             <form>
               <div class="mb-3">
                 <i class="fa-solid fa-envelope"></i>
                 <input
-                  type="email"
+                  type="password"
                   class="form-control"
-                  placeholder="قم بإدخال بريدك الإلكتروني"
+                  placeholder="كلمة المرور الجديدة"
+                />
+              </div>
+              <div class="mb-3">
+                <i class="fa-solid fa-envelope"></i>
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="تأكيد كلمة المرور الجديدة"
                 />
               </div>
               <button type="submit" class="btn forget-btn">
-                إرسال رابط إعادة تعيين كلمة المرور
+                إعادة تعيين كلمة المرور
               </button>
             </form>
             <div class="back-login">
               <p>
                 عودة
-                <a> لتسجيل الدخول</a>
+                <a href="login.html"> لتسجيل الدخول</a>
               </p>
             </div>
           </div>

@@ -1576,7 +1576,8 @@ font-size: 12px;
 line-height: 23px;
 color: #000000;
 }
-.back-login p >span{
+.back-login p >a{
+  text-decoration: underline;
   color:#114C63
 }
 .form-forgetPass {
@@ -1585,6 +1586,12 @@ color: #000000;
   align-items: center;
   flex-direction: column;
   margin-top: 6rem;
+}
+.form-changePass{
+  margin-top: 3rem;
+}
+.form-forgetPass .change-pass-text{
+  height: 30px;
 }
 /* end forgetPass page */
 
