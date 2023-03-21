@@ -1223,7 +1223,7 @@ footer .container {
 .about-courses {
   margin-top: 3rem;
 }
-.sec-resource{
+.sec-resource {
   margin-bottom: 5rem;
 }
 .sec-resource .container {
@@ -1270,20 +1270,20 @@ footer .container {
   height: 90px;
   color: #000000;
 }
-.unit-name{
-display: flex;
-align-items: center;
-gap:0.5rem
+.unit-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-.resource{
+.resource {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
   font-weight: 400;
-font-size: 20px;
-line-height: 38px;
-color: #114C63;
+  font-size: 20px;
+  line-height: 38px;
+  color: #114c63;
 }
 /*  end course page*/
 
@@ -1498,6 +1498,95 @@ color: #114C63;
 }
 
 /* end service page */
+
+/* start forgetPass page */
+.sec-forgetPass {
+  margin: 10rem 0rem;
+}
+.sec-forgetPass .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 782px;
+  height: 486px;
+  background: #ffffff;
+  box-shadow: 0px 13px 29px 11px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  position: relative;
+}
+.reg-login {
+  position: absolute;
+  right: 36px;
+  top: 37px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 23px;
+  color: #000000;
+}
+.reg-login a {
+  color: #114c63;
+}
+.form-forgetPass h1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: right;
+  color: #114c63;
+}
+.form-forgetPass p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #797979;
+  width: 378px;
+  height: 64px;
+  margin-bottom: 19px;
+}
+.form-forgetPass .form-control {
+  width: 378px;
+  height: 56px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 22px;
+}
+.form-forgetPass .form-control::placeholder {
+  color: #d9d9d9;
+  font-size: 14px;
+}
+.form-forgetPass .forget-btn{
+  width: 378px;
+height: 51px;
+background: #114C63;
+border-radius: 8px;
+font-weight: 500;
+font-size: 14px;
+line-height: 27px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.back-login{
+  margin-top: 76px;
+}
+.back-login p{
+  font-weight: 500;
+font-size: 12px;
+line-height: 23px;
+color: #000000;
+}
+.back-login p >span{
+  color:#114C63
+}
+.form-forgetPass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+/* end forgetPass page */
 
 /* login and reg page responsive */
 @media (max-width: 575.98px) {
