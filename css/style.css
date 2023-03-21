@@ -1526,6 +1526,7 @@ footer .container {
 }
 .reg-login a {
   color: #114c63;
+  text-decoration: underline;
 }
 .form-forgetPass h1 {
   font-weight: 500;
@@ -1550,10 +1551,12 @@ footer .container {
   border: 1px solid #e3e3e3;
   border-radius: 8px;
   margin-bottom: 22px;
+  /* position: relative; */
 }
 .form-forgetPass .form-control::placeholder {
   color: #d9d9d9;
   font-size: 14px;
+  padding-right: 30px;
 }
 .form-forgetPass .forget-btn{
   width: 378px;
@@ -1592,6 +1595,24 @@ color: #000000;
 }
 .form-forgetPass .change-pass-text{
   height: 30px;
+}
+.form-forgetPass .form-control {
+  position: relative;
+}
+.eye-img{
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  z-index: 2;
+}
+.eye-img.two{
+  top: 32%;
+}
+.email-img{
+  position: absolute;
+  top: 50%;
+  right: 27%;
+  z-index: 2;
 }
 /* end forgetPass page */
 
