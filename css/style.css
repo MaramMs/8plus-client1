@@ -1644,6 +1644,27 @@ color: #000000;
   z-index: 2;
 }
 /* end forgetPass page */
+/* start new Pass page */
+.sec-newPass{
+  margin: 5rem 0rem;
+}
+.user-info{
+  width: 302px;
+height: 869px;
+border: 1px solid #D9D9D9;
+filter: drop-shadow(0px -1px 15px rgba(0, 0, 0, 0.06));
+border-radius: 8px;
+background-color: #fff;
+}
+.new-pass{
+  width: 805px;
+  height: 622px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 22px 5px rgba(0, 0, 0, 0.06);
+  margin: 77px;
+
+}
+/* end new Pass page */
 
 /* login and reg page responsive */
 @media (max-width: 575.98px) {
