@@ -518,9 +518,8 @@ footer {
 }
 footer .container {
   height: auto;
-  border-bottom: 0.2px solid #FFFFFF;
+  border-bottom: 0.2px solid #ffffff;
   padding-bottom: 8rem;
-
 }
 .footer-item {
   display: flex;
@@ -956,7 +955,8 @@ footer .container {
   border-bottom: 2px solid #114c63;
 }
 
- .form-btn ,.service-btn {
+.form-btn,
+.service-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1054,13 +1054,12 @@ footer .container {
 /* end contact us page */
 
 /*  start course page*/
-.course{
-  margin-top:5rem;
+.course {
+  margin-top: 5rem;
 }
 .course-header .link,
 .navbar-dark .navbar-nav .nav-link {
   color: #000;
-
 }
 .course-header .line {
   border: 0.5px solid rgba(212, 212, 212, 1);
@@ -1088,158 +1087,159 @@ footer .container {
 
   color: #ffffff;
 }
-.money{
+.money {
   width: 751px;
-height: 485px;
-border: 1px solid #EFEFEF;
-box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
-border-radius: 8px;
-padding: 36px 48px;
+  height: 485px;
+  border: 1px solid #efefef;
+  box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 36px 48px;
 }
-.course-card{
+.course-card {
   width: 400px;
-height: 653px;
-background: #FFFFFF;
-box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
-border-radius: 8px;
-padding: 36px 29px;
+  height: 653px;
+  background: #ffffff;
+  box-shadow: 0px 10px 77px -20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 36px 29px;
 }
-.card-span
-{
+.card-span {
   font-weight: 500;
   font-size: 14px;
-  line-height: 27px;  
+  line-height: 27px;
   text-align: right;
   color: #000000;
   margin-top: 1rem;
   display: inline-block;
 }
-.join{
+.join {
   width: 338px;
   height: 52px;
   left: 162px;
-  top: 413px;  
-  background: #114C63;
+  top: 413px;
+  background: #114c63;
   border-radius: 8px;
   border: 0px;
   color: #fff;
   font-weight: 500;
-font-size: 14px;
-line-height: 27px;
-color: #FFFFFF;
-margin-top: 1rem;
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-top: 1rem;
 }
-.course-list-item{
-  border-bottom: 1px solid #EBEBEB;
+.course-list-item {
+  border-bottom: 1px solid #ebebeb;
   padding: 12px 0px;
   font-weight: 500;
-font-size: 16px;
-line-height: 30px;
-
+  font-size: 16px;
+  line-height: 30px;
 }
-.present-name{
+.present-name {
   font-weight: 600;
 }
-.course-list-item:last-child{
+.course-list-item:last-child {
   border: none;
 }
-.course-list-item .price{
+.course-list-item .price {
   font-weight: 600;
-font-size: 16px;
-line-height: 30px;
-color: rgba(17, 76, 99, 1);
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(17, 76, 99, 1);
 }
-.present-span{
+.present-span {
   font-weight: 600;
-font-size: 16px;
-line-height: 30px;
-color: #114C63
+  font-size: 16px;
+  line-height: 30px;
+  color: #114c63;
 }
 
-.course-span{
+.course-span {
   width: 141px;
-height: 44px;
-background: #114C63;
-border-radius: 22px;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: #FFFFFF;
-padding: 0.5rem;
-margin: 2rem 0rem;
-display: inline-block;
+  height: 44px;
+  background: #114c63;
+  border-radius: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 0.5rem;
+  margin: 2rem 0rem;
+  display: inline-block;
 }
 
-.span-title{
+.span-title {
   font-weight: 700;
-font-size: 32px;
-line-height: 61px;
-color: #000000;
+  font-size: 32px;
+  line-height: 61px;
+  color: #000000;
 }
-.course-title{
+.course-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 46px;  
+  line-height: 46px;
   color: #000000;
-width: 1184px;
-height: 102px;
-background: rgba(17, 76, 99, 0.04);
-border-radius: 8px;
-padding: 28px 33px 28px ;
-margin-bottom: 10px;
+  width: 1184px;
+  height: 102px;
+  background: rgba(17, 76, 99, 0.04);
+  border-radius: 8px;
+  padding: 28px 33px 28px;
+  margin-bottom: 10px;
 }
-.courses-text{
+.courses-text {
   width: 1088px;
-height: 250px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-color: #000000;
-padding-right: 33px;
-margin-bottom: 36px;
+  height: 250px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  padding-right: 33px;
+  margin-bottom: 36px;
 }
-.sub-title{
-width: 474px;
-height: 46px;
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 46px;
-color: #000000;
-margin-right: 33px;
+.sub-title {
+  width: 474px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #000000;
+  margin-right: 33px;
 }
-.sub-text{
+.sub-text {
   width: 1085px;
-height: 69px;
-font-family: 'Noto Kufi Arabic';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-text-align: right;
+  height: 69px;
+  font-family: "Noto Kufi Arabic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
 
-color: #000000;
-margin-right: 33px;
-margin-bottom: 3rem;
+  color: #000000;
+  margin-right: 33px;
+  margin-bottom: 3rem;
 }
-.about-courses{
+.about-courses {
   margin-top: 3rem;
 }
 /*  end course page*/
 
 /* start login page */
-.sec-login ,.sec-reg{
-  background: url('../img/login.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 803px;
-position: relative;
-border-bottom: 8px solid rgba(68, 172, 212, 1);
-;
+.sec-login,
+.sec-reg {
+  background: url("../img/login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 803px;
+  position: relative;
+  border-bottom: 8px solid rgba(68, 172, 212, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.layout{
+.layout {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1248,143 +1248,151 @@ border-bottom: 8px solid rgba(68, 172, 212, 1);
   left: 0%;
   background: rgba(2, 2, 2, 0.7);
 }
-.login-form,.reg-form{
+.login-form,
+.reg-form {
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 2;
   position: relative;
-  padding: 111px 636px 117px 634px;
+  padding: 34px 534px 117px 634px;
   flex-direction: column;
-  gap:3rem;
+  gap: 3rem;
 }
-.login-form .form-control{
+.login-form .form-control {
   background-color: transparent;
   color: #fff;
   width: 397px;
-height: 56px;
-left: 521px;
-top: 304px;
-border: 1px solid #E3E3E3;
-border-radius: 8px;
-margin-bottom: 20px;
+  height: 56px;
+  left: 521px;
+  top: 304px;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
-.form-control::placeholder{
+.form-control::placeholder {
   font-weight: 500;
-font-size: 12px;
-line-height: 23px;
-color: #5C5C5C;
-
+  font-size: 12px;
+  line-height: 23px;
+  color: #5c5c5c;
 }
-.pass{
-text-align: left;
+.pass {
+  text-align: left;
 }
-.pass a{
-  color:#fff;
+.pass a {
+  color: #fff;
   font-weight: 500;
   font-size: 12px;
   line-height: 23px;
 }
-.login-form .login-btn , .reg-form .reg-btn{
+.login-form .login-btn,
+.reg-form .reg-btn {
   width: 397px;
   height: 56px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   border: none;
   font-weight: 600;
-font-size: 14px;
-line-height: 27px;
-color: #114C63;
-margin-top: 1.5rem;
+  font-size: 14px;
+  line-height: 27px;
+  color: #114c63;
+  margin-top: 1.5rem;
 }
-.login-form .line , .reg-form .line{
+.login-form .line,
+.reg-form .line {
   width: 704px;
-height: 0px;
-left: 368px;
-top: 417px;
-border: 0.5px solid #EDEDED;
+  height: 0px;
+  left: 483px;
+  top: 442px;
+  border: 0.5px solid #ededed;
 }
-.login-social , .reg-social{
+.login-social,
+.reg-social {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap:0.5rem
+  gap: 0.5rem;
 }
 
-.login-social .login-social-items ,.reg-social .reg-social-items{
+.login-social .login-social-items,
+.reg-social .reg-social-items {
   display: flex;
   margin-bottom: 2.5rem;
-  gap:1rem;
+  gap: 1rem;
 }
-.login-social-item , .reg-social-item{
+.login-social-item,
+.reg-social-item {
   width: 54px;
-height: 54px;
-border-radius: 50%;
-border: 0.5px solid #FFFFFF;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 54px;
+  border-radius: 50%;
+  border: 0.5px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.login-social .login-social-title ,.reg-social .reg-social-title{
-font-weight: 600;
-font-size: 12px;
-line-height: 23px; 
- color: #FFFFFF;
- margin-top: 20px;
-
-
+.login-social .login-social-title,
+.reg-social .reg-social-title {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-top: 20px;
 }
-.account{
-  color:#fff;
+.form-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+}
+.account {
+  color: #fff;
   font-size: 12px;
 }
 /* end login page */
 
 /* start reg page */
-.sec-reg{
-background: url('../img/reg.png');
+.sec-reg {
+  background: url("../img/reg.png");
 }
-.reg-form{
-
+.reg-form {
   position: relative;
 
-    padding: 194px 527px 272px 751px;
-
-
+  padding: 194px 527px 272px 751px;
 }
 .reg-form form {
   width: 750px;
 }
-.reg-form .form-control{
+.reg-form .form-control {
   width: 284px;
   height: 56px;
   background-color: transparent;
-border: 1px solid #E3E3E3;
-border-radius: 8px;
-margin-bottom: 20px;
-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #fff;
 }
-.reg-form .reg-btn{
+.reg-form .reg-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
-.reg-form .line{
-  top: 500px;
-  left: 524px;
+.reg-form .line {
+
+    top: 602px;
+    left: 739px;
 }
-.reg-social{
-margin-top: 2rem;
+.reg-social {
+  margin-top: 2rem;
 }
-.select-input
-{
+.select-input {
   display: flex;
   width: 200px;
 }
-.select-input select{
+.select-input select {
   width: 50%;
 }
 #phone {
@@ -1397,26 +1405,24 @@ margin-top: 2rem;
 /* end reg page */
 
 /* start service page */
-.sec-services{
+.sec-services {
   margin: 5rem 0rem 10rem 0rem;
   position: relative;
-
 }
-.ser-rectangle{
-width: 479px;
-height: 653px;
-border: 1px solid #114C63;
-margin-bottom: 5rem;
-position: relative;
-
+.ser-rectangle {
+  width: 479px;
+  height: 653px;
+  border: 1px solid #114c63;
+  margin-bottom: 5rem;
+  position: relative;
 }
-.sec-services .service-form form{
-width: 50%;
+.sec-services .service-form form {
+  width: 50%;
 }
-.sec-services .service-form .form-text{
+.sec-services .service-form .form-text {
   text-align: right;
 }
-.service-btn{
+.service-btn {
   margin: auto;
   border: 1px solid #1e627c;
 }
@@ -1426,8 +1432,8 @@ width: 50%;
   position: absolute;
   top: -3%;
   width: 479px;
-    height: 653px;
-    left: 13%;
+  height: 653px;
+  left: 13%;
 }
 
 /* end service page */
