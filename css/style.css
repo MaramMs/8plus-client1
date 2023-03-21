@@ -1196,6 +1196,16 @@ footer .container {
   padding-right: 33px;
   margin-bottom: 36px;
 }
+.accordion-button:not(.collapsed)::after {
+  background-image: url('../img/mins.svg')
+}
+.accordion-button::after{
+  background-image: url('../img/plus.svg')
+}
+/* .accordion-item:first-of-type{
+  background: rgba(17, 76, 99, 0.08);
+  border: 0.5px solid rgba(17, 76, 99, 0.39);
+} */
 .sub-title {
   width: 474px;
   height: 46px;
@@ -1205,6 +1215,13 @@ footer .container {
   line-height: 46px;
   color: #000000;
   margin-right: 33px;
+}
+.accordion-item:first-of-type .accordion-button ,.accordion-button{
+  font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+color: #000000;
+
 }
 .sub-text {
   width: 1085px;
@@ -1230,6 +1247,18 @@ footer .container {
   border: 2px solid #d9d9d9;
   border-radius: 8px;
   padding: 88px 35px;
+  position: relative;
+}
+.sec-resource .container >span{
+  position: absolute;
+    left: 3%;
+    top: 4%;
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+
+color: #114C63;
 }
 .resc-title {
   background: rgba(227, 227, 227, 0.46);
