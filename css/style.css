@@ -2162,6 +2162,17 @@ position: relative;
 .progress-bar{
   background: #60BC6E ;
 }
+.per-sent{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+.per-sent span{
+  font-weight: 600;
+font-size: 10px;
+line-height: 19px;
+color: #000000;
+}
 .dot-img{
   position: absolute;
   left: 2%;
@@ -2252,6 +2263,7 @@ color: #000000;
 .card-line.complete{
   left: -10%;
 }
+
 /* end complete page */
 
 /* login and reg page responsive */
