@@ -1912,12 +1912,15 @@ footer .container {
   margin-bottom: 17px;
 }
 
-.user-info-list li:first-child {
+.user-info-list li a:first-child {
+
   padding-bottom: 10px;
   border-bottom: 1px solid #e1e1e1;
 }
-
-.user-info-list li:nth-child(2) {
+.user-info-list li:nth-child(1) a {
+  color: #000;
+}
+.user-info-list li:nth-child(2) a {
   color: #114c63;
 }
 
@@ -2233,10 +2236,13 @@ line-height: 19px;
 color: #FFFFFF;
 }
 .btn-rate{
+  width: 116px;
+  height: 47px;
   font-weight: 500;
   font-size: 10px;
   line-height: 19px;
   color: #114C63;
+
 }
 .prog-img-correct{
   width: 17.92px;
