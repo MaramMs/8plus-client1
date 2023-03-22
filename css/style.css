@@ -1714,6 +1714,81 @@ position: absolute;
     left: 31%;
 }
 /* end new Pass page */
+/* start profile page */
+.sec-profile{
+  margin: 6rem 0rem;
+}
+.profile{
+  margin: 0px;
+  width: 805px;
+  height: 869px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.form-profile{
+  margin: 0px;
+}
+.profile-cover{
+  position: relative;
+  width: 805px;
+  height: 247px; 
+  background: rgba(17, 76, 99, 0.1);
+}
+.profile-img
+{
+  top: 146px;
+  left: 315px;
+  bottom: 75px;
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  border: 1px solid #114C63;
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+.form-profile{
+  padding:151px 168px 410px 211px;
+}
+
+.form-profile form label {
+  font-weight: 500;
+font-size: 12px;
+line-height: 30px;
+
+color: #9D9D9D;
+}
+.btn-save{
+  background: #114C63;
+  border-radius: 8px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+color: #FFFFFF;
+width: 86px;
+height: 47px;
+}
+.btn-cancle{
+  width: 86px;
+height: 47px;
+  border: 0.5px solid #114C63;
+  border-radius: 8px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+
+color: #114C63;
+
+}
+/* end profile page */
 
 /* login and reg page responsive */
 @media (max-width: 575.98px) {
