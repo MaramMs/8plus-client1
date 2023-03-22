@@ -1692,22 +1692,25 @@ margin-bottom: 17px;
 .form-newPass p{
   text-align: right;
 }
+.form-newPass .form-control{
+position:relative;
+}
 .form-newPass .eye-img{
   position: absolute;
-  top: 66%;
+  top: 62%;
   left: 32%;
   z-index: 2;
 
 }
 .form-newPass .eye-img.two{
 position: absolute;
-    top: 77%;
+    top: 72%;
     left: 32%;
     z-index: 2;
 }
 .form-newPass .eye-img.three{
   position: absolute;
-    top: 88%;
+    top: 82%;
     left: 32%;
 }
 /* end new Pass page */
