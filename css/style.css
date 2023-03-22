@@ -1661,8 +1661,54 @@ background-color: #fff;
   height: 622px;
   background: #FFFFFF;
   box-shadow: 0px 4px 22px 5px rgba(0, 0, 0, 0.06);
-  margin: 77px;
+  margin: 77px 27px;
+}
+.user-info-list{
+  padding: 188px 25px 651px 90px;
+  
 
+}
+.user-info-list li{
+  display: flex;
+  align-items: center;
+  gap:27px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: #000000;
+margin-bottom: 17px;
+}
+.user-info-list li:first-child{
+  padding-bottom: 10px ;
+  border-bottom: 1px solid #E1E1E1;
+}
+.user-info-list li:nth-child(2){
+  color: #114C63;
+}
+.form-newPass{
+  padding:112px 213px 427px 364px;
+  display: block;
+}
+.form-newPass p{
+  text-align: right;
+}
+.form-newPass .eye-img{
+  position: absolute;
+  top: 66%;
+  left: 32%;
+  z-index: 2;
+
+}
+.form-newPass .eye-img.two{
+position: absolute;
+    top: 77%;
+    left: 32%;
+    z-index: 2;
+}
+.form-newPass .eye-img.three{
+  position: absolute;
+    top: 88%;
+    left: 32%;
 }
 /* end new Pass page */
 
