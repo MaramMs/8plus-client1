@@ -1697,21 +1697,21 @@ position:relative;
 }
 .form-newPass .eye-img{
   position: absolute;
-  top: 62%;
-  left: 32%;
+  top: 68%;
+  left:31%;
   z-index: 2;
 
 }
 .form-newPass .eye-img.two{
 position: absolute;
-    top: 72%;
-    left: 32%;
+    top: 79%;
+    left: 31%;
     z-index: 2;
 }
 .form-newPass .eye-img.three{
   position: absolute;
-    top: 82%;
-    left: 32%;
+    top: 90%;
+    left: 31%;
 }
 /* end new Pass page */
 
