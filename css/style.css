@@ -1939,22 +1939,22 @@ footer .container {
 
 .form-newPass .eye-img {
   position: absolute;
-  top: 96%;
-  left: 26%;
+  top: 98%;
+    left: 31%;
   z-index: 2;
 }
 
 .form-newPass .eye-img.two {
   position: absolute;
-  top: 79%;
-  left: 26%;
+  top: 74%;
+    left: 31%;
   z-index: 2;
 }
 
 .form-newPass .eye-img.three {
   position: absolute;
-  top: 84%;
-  left: 26%;
+  top: 86%;
+    left: 31%;
 }
 
 /* end new Pass page */
