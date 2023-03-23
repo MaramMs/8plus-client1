@@ -926,7 +926,7 @@ footer .container {
 }
 
 .about-se-title {
-  font: 24px;
+  font-size: 24px;
   font-weight: 700;
   margin: 1.5rem 0rem;
   color: #114c63;
@@ -1133,7 +1133,7 @@ footer .container {
   line-height: 30px;
   text-align: right;
   width: 494px;
-height: 63px;
+  height: 63px;
 
   color: #000000;
 }
@@ -2367,21 +2367,75 @@ height: 63px;
 /* end change pass page */
 
 /* start service page */
-@media (max-width: 575.98px){
-.service-form .form-text{
-
-  font-size:12px ;
-  width: 381px;
-}
-.sec-services .service-form form {
-  width: 100%;
-}
-.service-form .form-title{
-  color: #114c63;
-  text-align: right;
-}
-.contact-card{
-  display: none;
-}
+@media (max-width: 575.98px) {
+  .service-form .form-text {
+    font-size: 12px;
+    width: 381px;
+  }
+  .sec-services .service-form form {
+    width: 100%;
+  }
+  .service-form .form-title {
+    color: #114c63;
+    text-align: right;
+  }
+  .contact-card {
+    display: none;
+  }
 }
 /* end service page */
+
+/* start about page */
+@media (max-width: 575.98px) {
+  .about-se-text {
+    width: 334px;
+
+    font-size: 12px;
+  }
+  .about-cards-top .top-card-title {
+    font-size: 12px;
+  }
+  .about-cards-top .top-card-text {
+    width: 154px;
+
+    font-size: 10px;
+  }
+  .about-texts-title {
+    width: 334px;
+    font-size: 16px;
+  }
+  .about-texts .about-text {
+    width: 334px;
+    font-size: 10px;
+  }
+  .about-images img {
+    width: 145px;
+    height: 241px;
+    max-width: 100%;
+  }
+  .about-images img:nth-child(2) {
+    left: 17%;
+    top: 10%;
+  }
+  .about-texts {
+    padding: 0px;
+    margin: 0px;
+  }
+  .about-header .header-hero {
+    right: 35%;
+  }
+  .line {
+    width: 96%;
+  }
+  .about-bottom-cards{
+ margin: 3rem;
+  }
+  .bottom-card:nth-child(3){
+    top: 105%;
+  }
+}
+.about-images{
+  margin-top: 65%;
+}
+}
+/* end about us page */
