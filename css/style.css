@@ -2379,9 +2379,6 @@ footer .container {
     color: #114c63;
     text-align: right;
   }
-  .contact-card {
-    display: none;
-  }
 }
 /* end service page */
 
@@ -2427,17 +2424,81 @@ footer .container {
   .line {
     width: 96%;
   }
-  .about-bottom-cards{
- margin: 3rem;
+  .about-bottom-cards {
+    margin: 3rem;
   }
-  .bottom-card:nth-child(3){
+  .bottom-card:nth-child(3) {
     top: 105%;
   }
 
-.about-images{
-  display: none;
-  margin-top: 65%;
-}
+  .about-images {
+    display: none;
+    margin-top: 65%;
+  }
 }
 
 /* end about us page */
+
+/* start contact us page */
+
+@media (max-width: 575.98px) {
+  .contact-form {
+    width: 334px;
+    height: 539px;
+    padding: 1rem;
+  }
+  .contact-form .form-text {
+    width: 300px;
+    height: 71px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .contact-form .form-title {
+    width: 152px;
+    height: 27px;
+    left: 119px;
+    top: 370px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 27px;
+    color: #114c63;
+    margin-bottom: 20px;
+  }
+  .contact-card {
+    margin-top: 38rem;
+  }
+  .contact-card .card {
+    width: 334px;
+    height: 172px;
+  }
+  .rectangle {
+    width: 72px;
+    height: 72px;
+  }
+  .contact-form {
+    top: 2%;
+    right: 8%;
+  }
+  .contact-card .icon {
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+  }
+  .contact-card .icon i {
+    font-size: 22px !important;
+  }
+  textarea.form-control {
+    height: 136px !important;
+  }
+  .contact-form .btn {
+    left: 28%;
+    bottom: -14%;
+  }
+  .contact-card .card-body .card-title{
+    font-size: 14px;
+  }
+  .contact-card .card .card-text{
+    font-size: 12px;
+  }
+}
+/* end contact us page */
