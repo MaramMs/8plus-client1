@@ -2347,4 +2347,11 @@ footer .container {
     width: 240px;
   }
 }
+.form-forgetPass p {
+  font-size: 13px;
+  width: 290px;
+}
+.form-forgetPass .forget-btn{
+  font-size: 13px;
+}
 /* end change pass page */
