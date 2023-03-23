@@ -2419,7 +2419,7 @@ footer .container {
   }
   .about-texts {
     padding: 0px;
-    margin: 0px;
+    margin-top: 16rem;
   }
   .about-header .header-hero {
     right: 35%;
@@ -2435,6 +2435,7 @@ footer .container {
   }
 
 .about-images{
+  display: none;
   margin-top: 65%;
 }
 }
