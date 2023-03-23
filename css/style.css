@@ -1120,13 +1120,23 @@ footer .container {
   align-items: center;
 }
 
-.form-title {
+.service-form .form-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 46px;
   color: #114c63;
+  text-align: right;
 }
+.service-form .form-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+  width: 494px;
+height: 63px;
 
+  color: #000000;
+}
 .form-text {
   width: 430px;
   height: 90px;
@@ -2324,7 +2334,7 @@ footer .container {
 @media screen and (max-width: 575.98px) {
   .sec-forgetPass .container {
     width: 344px;
-    }
+  }
   .form-forgetPass form {
     display: flex;
     justify-content: center;
@@ -2351,7 +2361,25 @@ footer .container {
   font-size: 13px;
   width: 290px;
 }
-.form-forgetPass .forget-btn{
+.form-forgetPass .forget-btn {
   font-size: 13px;
 }
 /* end change pass page */
+
+/* start service page */
+.service-form .form-text{
+
+  font-size:12px ;
+  width: 381px;
+}
+.sec-services .service-form form {
+  width: 100%;
+}
+.service-form .form-title{
+  color: #114c63;
+  text-align: right;
+}
+.contact-card{
+  display: none;
+}
+/* end service page */
