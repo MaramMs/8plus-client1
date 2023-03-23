@@ -2367,6 +2367,7 @@ height: 63px;
 /* end change pass page */
 
 /* start service page */
+@media (max-width: 575.98px){
 .service-form .form-text{
 
   font-size:12px ;
@@ -2381,5 +2382,6 @@ height: 63px;
 }
 .contact-card{
   display: none;
+}
 }
 /* end service page */
