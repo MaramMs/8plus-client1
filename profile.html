@@ -91,10 +91,10 @@
       <section class="sec-profile">
         <div class="container">
           <div class="row">
-            <div class="col-3">
+            <div class="col-sm-12 col-md-3">
               <div class="user-info">
                 <ul class="user-info-list">
-                  <li>
+                  <li class="active">
                     <img src="./img/user.svg" alt="" />
   
                     <a href="profile.html"> المعلومات الشخصية
@@ -109,7 +109,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-9">
+            <div class="col-sm-12 col-md-9">
               <div class="profile">
                 <div class="profile-cover">
                   <div class="profile-img">
@@ -119,12 +119,14 @@
                 <div class="form-profile">
                   <form action="">
                     <div class="mb-3 row">
+                  
                       <label
-                        for="inputText"
-                        class=" col-3 col-form-label"
-                        >الاسم كاملا</label
-                      >
-                    <div class="col-9">
+                      for="inputText"
+                      class="col-sm-12 col-md-3 col-form-label"
+                      >الاسم كاملا</label
+                    >
+              
+                    <div class="col-sm-12 col-md-9">
                       <input type="text" class="form-control" id="inputText">
                     </div>
                   
@@ -132,10 +134,10 @@
                     <div class="mb-3 row">
                       <label
                         for="staticEmail"
-                        class="col-3  col-form-label"
+                        class="col-sm-12 col-md-3 c col-form-label"
                         >البريد الالكتروني</label
                       >
-                      <div class="col-9 ">
+                      <div class="col-sm-12 col-md-9">
                         <input type="email" class="form-control"
                         for="staticEmail"">
                       </div>
@@ -143,10 +145,10 @@
                     <div class="mb-3 row">
                       <label
                         for="inputText"
-                        class="col-3  col-form-label"
+                        class="col-sm-12 col-md-3 c  col-form-label"
                         >الهاتف</label
                       >
-                      <div class="col-9 ">
+                      <div class="col-sm-12 col-md-9">
                         <input
                           type="text"
                           class="form-control"
@@ -154,7 +156,7 @@
                         />
                       </div>
                     </div>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-display">
                       <button class="btn btn-save me-md-2" type="button">حفظ</button>
                       <button class="btn btn-cancle" type="button">الغاء</button>
                     </div>
