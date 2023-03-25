@@ -1931,10 +1931,10 @@ footer .container {
   padding-bottom: 10px;
   border-bottom: 1px solid #e1e1e1;
 }
-.user-info-list li:nth-child(1) a {
+.user-info-list li  a  {
   color: #000;
 }
-.user-info-list li:nth-child(2) a {
+.user-info-list li.active a {
   color: #114c63;
 }
 
@@ -2592,3 +2592,44 @@ footer .container {
   }
 }
 /* end course page */
+
+/* start profile page responsive */
+@media (max-width: 575.98px) {
+  .sec-profile{
+    margin-bottom: 0rem;
+  }
+  .user-info{
+    height: 100px;
+    background: transparent;
+    border: none;
+  }
+  .user-info-list{
+  padding: 0px 28px;
+  }
+  .profile{
+    width: 375px;
+  box-shadow: none;
+  background: transparent;
+  
+  }
+  .profile-cover{
+    width: 378px;
+    height: 78px;
+    background: transparent;
+  }
+  .profile-img{
+    left: 99px;
+    top: 0px;
+  }
+  .form-profile {
+    margin-top: 9rem;
+    padding: 0px 26px 0px 0px;
+  }
+.mb-display{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 2rem;
+}
+}
+/* end profile page responsive */
