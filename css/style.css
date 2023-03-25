@@ -2379,6 +2379,9 @@ footer .container {
     color: #114c63;
     text-align: right;
   }
+.contact-card{
+  display: none;
+}
 }
 /* end service page */
 
