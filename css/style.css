@@ -2606,7 +2606,7 @@ footer .container {
   .user-info-list{
   padding: 0px 28px;
   }
-  .profile{
+  .profile ,.new-pass{
     width: 375px;
   box-shadow: none;
   background: transparent;
@@ -2621,15 +2621,24 @@ footer .container {
     left: 99px;
     top: 0px;
   }
-  .form-profile {
+  .form-profile,.form-newPass {
     margin-top: 9rem;
     padding: 0px 26px 0px 0px;
+  }
+  .form-newPass {
+    margin: 0px;
   }
 .mb-display{
   display: flex !important;
   flex-direction: row;
   justify-content: end;
   margin-top: 2rem;
+}
+.new-pass{
+  margin: 0px;
+}
+.new-pass .form-forgetPass form{
+display: block;
 }
 }
 /* end profile page responsive */
