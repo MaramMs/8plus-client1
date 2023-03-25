@@ -2384,9 +2384,6 @@ footer .container {
     color: #114c63;
     text-align: right;
   }
-  .contact-card {
-    display: none;
-  }
 }
 /* end service page */
 
@@ -2454,6 +2451,8 @@ footer .container {
     width: 334px;
     height: 539px;
     padding: 1rem;
+    top: 2%;
+    right: 5%;
   }
   .contact-form .form-text {
     width: 300px;
@@ -2483,10 +2482,10 @@ footer .container {
     width: 72px;
     height: 72px;
   }
-  .contact-form {
+  /* .contact-form {
     top: 2%;
     right: 8%;
-  }
+  } */
   .contact-card .icon {
     width: 38px;
     height: 38px;
