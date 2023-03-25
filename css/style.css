@@ -119,16 +119,18 @@ nav > ul {
   width: 400px;
   height: 300px;
   position: absolute;
-  top: 10%;
-  right: 1%;
+  top: 28%;
+  right: 11%;
   display: flex;
   flex-direction: column;
   z-index: 999;
-  position: relative;
+  /* position: relative; */
 }
-
-.hero-title,
-.hero-subTitle {
+a:hover{
+color: #114c63;
+}
+.header-hero .hero-title,
+.header-hero .hero-subTitle {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
@@ -138,7 +140,7 @@ nav > ul {
   margin: 0px;
 }
 
-.hero-subTitle {
+.header-hero .hero-subTitle {
   width: 490px;
   height: 66px;
 }
@@ -451,7 +453,8 @@ nav > ul {
 }
 
 .statistics .card-text {
-  width: 85px;
+  width: 87px;
+  font-size: 14px;
   color: #114c63;
 }
 
@@ -483,6 +486,7 @@ nav > ul {
   color: #000;
   font-weight: 700;
   font-size: 24px;
+  padding: 3rem;
 }
 
 .card-body .card-title {
@@ -878,7 +882,7 @@ footer .container {
   top: 17%;
 }
 
-.about-header .header-hero {
+/* .about-header .header-hero {
   position: absolute;
   width: 113px;
   height: 61px;
@@ -888,7 +892,7 @@ footer .container {
   font-size: 32px;
   line-height: 61px;
   color: #fff;
-}
+} */
 
 /* about us section */
 .about-page {
@@ -2097,7 +2101,7 @@ footer .container {
   position: relative;
   height: 388px;
 }
-.hero-title {
+.headerCourse-hero .hero-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 46px;
