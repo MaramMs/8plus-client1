@@ -2494,11 +2494,89 @@ footer .container {
     left: 28%;
     bottom: -14%;
   }
-  .contact-card .card-body .card-title{
+  .contact-card .card-body .card-title {
     font-size: 14px;
   }
-  .contact-card .card .card-text{
+  .contact-card .card .card-text {
     font-size: 12px;
   }
 }
 /* end contact us page */
+
+/* start course page */
+@media (max-width: 575.98px) {
+  .money {
+    width: 334px;
+    height: 215px;
+    padding: 16px 22px;
+  }
+  .money .money-img img {
+    width: 291px;
+    height: 183px;
+  }
+  .course-span {
+    width: 90px;
+    height: 28px;
+    font-size: 10px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0rem;
+  }
+  .span-title {
+    font-size: 16px;
+  }
+  .course-card video,
+  .card-span {
+    display: none;
+  }
+
+  .course-card {
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+    height: 260px;
+  }
+  .course-title {
+    width: 334px;
+    height: 39px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 8px 30px 3px;
+  }
+
+  .courses-text {
+    width: 334px;
+    height: auto;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  .course-card-item{
+    margin-top: 2rem;
+  }
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-right: 2px;
+  }
+  .course-list .fa-solid{
+    margin-left: 8px !important;
+  }
+  .course-list-item:nth-child(5){
+    border: none;
+  }
+  .sec-resource {
+    width: 334px;
+    margin: auto auto 3rem auto;
+  }
+  .resc-title h2 {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .lecture-time span {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+/* end course page */
