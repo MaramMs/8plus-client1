@@ -2316,7 +2316,8 @@ footer .container {
 
   .login-form .login-btn,
   .reg-form .reg-btn {
-    width: 250px;
+    width: 187px;
+    margin-right: 45px;
   }
 
   .login-social .login-social-items,
@@ -2330,6 +2331,10 @@ footer .container {
 
   .form-title {
     padding-top: 3rem;
+  }
+  .login-social .login-social-title, .reg-social .reg-social-title
+  {
+    margin-left: 38px;
   }
 }
 
