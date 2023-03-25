@@ -883,7 +883,7 @@ footer .container {
   top: 17%;
 }
 
-/* .about-header .header-hero {
+.about-header .header-hero {
   position: absolute;
   width: 113px;
   height: 61px;
@@ -893,7 +893,7 @@ footer .container {
   font-size: 32px;
   line-height: 61px;
   color: #fff;
-} */
+}
 
 /* about us section */
 .about-page {
