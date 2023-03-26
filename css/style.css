@@ -2281,8 +2281,8 @@ footer .container {
 
 /* end complete page */
 /* start our courses page */
-.mb-container{
-  margin :148px 128px 57px 0px;
+.mb-container {
+  margin: 148px 128px 57px 0px;
 }
 
 .last-course {
@@ -2313,11 +2313,11 @@ footer .container {
   left: 3%;
   top: 34%;
 }
-.our-course{
-  background: #FFFFFF;
-box-shadow: 0px 1px 16px 4px rgba(0, 0, 0, 0.05);
-border-radius: 8px;
-border: none;
+.our-course {
+  background: #ffffff;
+  box-shadow: 0px 1px 16px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  border: none;
 }
 /* end our courses page */
 
@@ -2685,20 +2685,48 @@ border: none;
 /* end profile page responsive */
 /* start our courses page responsive */
 @media (max-width: 575.98px) {
-.mb-container{
-  margin: 3rem 0px ;
-}
-.course-search{
-  width: 262px;
-  display: block;
-}
-.course-search input {
-  width: 262px;
-height: 50px;
-}
-.last-course{
-  font-size: 12px;
-}
-
+  .mb-container {
+    margin: 3rem 0px;
+  }
+  .course-search {
+    width: 262px;
+    display: block;
+  }
+  .course-search input {
+    width: 262px;
+    height: 50px;
+  }
+  .last-course {
+    font-size: 12px;
+  }
 }
 /* end our courses page  responsive*/
+
+/* start all courese page responsive */
+@media (max-width: 575.98px) {
+  .prog-div{
+    padding: 1rem 0rem;
+  margin-bottom: 1rem;
+  }
+  .card-right img {
+    display: none;
+  }
+  .course-type {
+    gap: 48px;
+  }
+  .course-type li {
+    font-size: 14px;
+  }
+  .card-line {
+    width: 302px;
+    height: 0px;
+    transform: rotate(180deg);
+    top: 109%;
+    left: 0%;
+  }
+  .progress{
+    width: 269px;
+height: 6px;
+  }
+}
+/* end all courese page responsive */
