@@ -1278,7 +1278,19 @@ footer .container {
   border-radius: 8px;
   padding: 36px 29px;
 }
+.course-item{
+  border-bottom: 1px solid #E1E1E1;
+}
+.bm{
+  border-bottom: none;
+}
+.course-item-list{
+  font-weight: 500;
+font-size: 16px;
+line-height: 30px;
 
+color: #000000;
+}
 .card-span {
   font-weight: 500;
   font-size: 14px;
@@ -1311,6 +1323,18 @@ footer .container {
   font-weight: 500;
   font-size: 16px;
   line-height: 30px;
+}
+.course-item-text , .course-item-span
+{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: right;
+  color: #000000;
+}
+.course-item-span{
+ color: rgba(17, 76, 99, 1)
+
 }
 
 .present-name {
@@ -2661,7 +2685,8 @@ position: absolute;
     padding: 0;
     box-shadow: none;
     background: transparent;
-    height: 260px;
+    height: 300px;
+    width: 379px;
   }
   .course-title {
     width: 334px;
@@ -2690,8 +2715,18 @@ position: absolute;
   .course-list .fa-solid {
     margin-left: 8px !important;
   }
+  .course-item-span {
+
+  font-size: 12px;
+}
   .course-list-item:nth-child(5) {
     border: none;
+  }
+  .course-item{
+    border-bottom: 1px solid #E1E1E1;
+  }
+  .course-item-text, .course-item-span{
+    font-size: 12px;
   }
   .sec-resource {
     width: 334px;
