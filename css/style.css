@@ -2513,6 +2513,23 @@ position: absolute;
 .form-forgetPass .forget-btn {
   font-size: 13px;
 }
+.form-newPass .eye-img.two {
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  z-index: 2;
+}
+.form-newPass .eye-img.three {
+  position: absolute;
+  top: 59%;
+  left: 26%;
+}
+.form-newPass .eye-img {
+  position: absolute;
+  top: 41%;
+  left: 26%;
+  z-index: 2;
+}
 /* end change pass page */
 
 /* start service page */
