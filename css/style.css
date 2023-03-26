@@ -2680,7 +2680,9 @@ position: absolute;
   .card-span {
     display: none;
   }
-
+.mb-t{
+  padding-top: 3rem;
+}
   .course-card {
     padding: 0;
     box-shadow: none;
