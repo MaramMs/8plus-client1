@@ -2729,6 +2729,12 @@ footer .container {
     width: 269px;
 height: 6px;
   }
+  .card-body .card-text{
+    color: #114c63;
+  }
+  .row-title{
+    display: none;
+  }
 }
 /* end all courese page responsive */
 
@@ -2749,6 +2755,9 @@ margin: 0px  10px!important;
 }
 .prog-img-correct img{
   display: block;
+}
+.per-sent span{
+  font-weight: bold;
 }
 }
 /* end complete page responsive */
