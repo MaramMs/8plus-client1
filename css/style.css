@@ -1931,7 +1931,7 @@ footer .container {
   padding-bottom: 10px;
   border-bottom: 1px solid #e1e1e1;
 }
-.user-info-list li  a  {
+.user-info-list li a {
   color: #000;
 }
 .user-info-list li.active a {
@@ -2280,6 +2280,46 @@ footer .container {
 }
 
 /* end complete page */
+/* start our courses page */
+.mb-container{
+  margin :148px 128px 57px 0px;
+}
+
+.last-course {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  color: #000000;
+}
+.course-search {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.course-search input {
+  width: 301px;
+  height: 64px;
+  background: rgba(227, 227, 227, 0.26);
+  border: 1px solid rgba(157, 157, 157, 0.29);
+  border-radius: 8px;
+}
+.course-search input::placeholder {
+  color: #9d9d9d;
+  font-size: 14px;
+  font-weight: 400;
+}
+.course-search img {
+  position: absolute;
+  left: 3%;
+  top: 34%;
+}
+.our-course{
+  background: #FFFFFF;
+box-shadow: 0px 1px 16px 4px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+border: none;
+}
+/* end our courses page */
 
 /* login and reg page responsive */
 @media (max-width: 575.98px) {
@@ -2332,8 +2372,8 @@ footer .container {
   .form-title {
     padding-top: 3rem;
   }
-  .login-social .login-social-title, .reg-social .reg-social-title
-  {
+  .login-social .login-social-title,
+  .reg-social .reg-social-title {
     margin-left: 38px;
   }
 }
@@ -2595,50 +2635,70 @@ footer .container {
 
 /* start profile page responsive */
 @media (max-width: 575.98px) {
-  .sec-profile{
+  .sec-profile {
     margin-bottom: 0rem;
   }
-  .user-info{
+  .user-info {
     height: 100px;
     background: transparent;
     border: none;
   }
-  .user-info-list{
-  padding: 0px 28px;
+  .user-info-list {
+    padding: 0px 28px;
   }
-  .profile ,.new-pass{
+  .profile,
+  .new-pass {
     width: 375px;
-  box-shadow: none;
-  background: transparent;
-  
+    box-shadow: none;
+    background: transparent;
   }
-  .profile-cover{
+  .profile-cover {
     width: 378px;
     height: 78px;
     background: transparent;
   }
-  .profile-img{
+  .profile-img {
     left: 99px;
     top: 0px;
   }
-  .form-profile,.form-newPass {
+  .form-profile,
+  .form-newPass {
     margin-top: 9rem;
     padding: 0px 26px 0px 0px;
   }
   .form-newPass {
     margin: 0px;
   }
-.mb-display{
-  display: flex !important;
-  flex-direction: row;
-  justify-content: end;
-  margin-top: 2rem;
-}
-.new-pass{
-  margin: 0px;
-}
-.new-pass .form-forgetPass form{
-display: block;
-}
+  .mb-display {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 2rem;
+  }
+  .new-pass {
+    margin: 0px;
+  }
+  .new-pass .form-forgetPass form {
+    display: block;
+  }
 }
 /* end profile page responsive */
+/* start our courses page responsive */
+@media (max-width: 575.98px) {
+.mb-container{
+  margin: 3rem 0px ;
+}
+.course-search{
+  width: 262px;
+  display: block;
+}
+.course-search input {
+  width: 262px;
+height: 50px;
+}
+.last-course{
+  font-size: 12px;
+}
+
+}
+/* end our courses page  responsive*/
