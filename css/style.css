@@ -2730,3 +2730,24 @@ height: 6px;
   }
 }
 /* end all courese page responsive */
+
+/* start complete page responsive */
+@media (max-width: 575.98px) {
+.btn-summary ,.btn-rate{
+  width: 302px;
+  height: 34px;
+}
+.card-line.complete {
+left: 4%;
+}
+.left-card-btn{
+margin: 0px  10px!important;
+}
+.btn-rate{
+  background: transparent;
+}
+.prog-img-correct img{
+  display: block;
+}
+}
+/* end complete page responsive */
