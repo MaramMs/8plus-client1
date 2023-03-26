@@ -2503,7 +2503,8 @@ position: absolute;
     left: 13%;
   }
   .form-forgetPass .forget-btn {
-    width: 240px;
+    width: 159px;
+    margin: 0px 52px;
   }
 }
 .form-forgetPass p {
